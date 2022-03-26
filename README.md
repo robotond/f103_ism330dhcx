@@ -13,4 +13,4 @@ Start STM32CubeIDE
 Chose File->New->STM32 Project, from an Existing STM32CubeMX Configuration File (.ioc)
 Locate the F103_ISM330DHCX.ioc file in root folder of the repository tree
 Compile and run.
-That's it.
+This is it.
