@@ -8,9 +8,7 @@ Build: 12015_20220302_0855 (UTC)
 IMU data is sent via USB CDC but can be easily adapted to some UART if needed.
 The code is based on an ST test application.
 How to use:
-Clone repository to your preferred workspace
-Start STM32CubeIDE
-Chose File->New->STM32 Project, from an Existing STM32CubeMX Configuration File (.ioc)
-Locate the F103_ISM330DHCX.ioc file in root folder of the repository tree
-Compile and run.
-This is it.
+Clone repository
+Locate makefile either in the Release or the Debug folder
+Compile using "make all"
+If you want to use it with a different stm32 family simply modify platform.h and platform.c accordingly
